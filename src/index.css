@@ -1,0 +1,126 @@
+h1{
+  display:flex;
+  color:rgb(29, 29, 31);
+
+  padding:0.5em;
+margin:auto;
+  text-align: center;
+  text-transform: capitalize;
+  max-width:fit-content;
+  border-radius: 10px;
+}
+.viewTask{
+  padding:0%;
+  text-align: left;
+  text-decoration:solid;
+  -webkit-text-fill-color: rgb(29, 29, 31);
+  max-width:600px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+h2{
+  color:rgb(29, 29, 31);
+  padding:0.5em;
+  text-align: left;
+  text-decoration: solid;
+  max-width: 600px;
+  
+}
+.myInput{
+  
+  padding:7px;
+  border:1px azure;
+  border-radius:10px;
+  font-size: 16px;
+  border-color:azure;
+  color:dimgrey;
+}
+.App{
+  background-color:rgb(154, 180, 180);
+  min-height: 100vh;
+
+}
+.addButton{
+  background-color: cadetblue;
+  color:cyan;
+  padding:8px;
+  border:none;
+  border-radius: 4px;
+  font-style: oblique;
+  cursor:pointer;
+  position:static;
+  right:75em;
+  bottom:34em;
+  box-shadow:color-mix(in srgb-linear, color percentage, color percentage);
+}
+.removeButton{
+
+  background-color: rgb(235, 248, 248);
+  color:cyan;
+  padding:10px;
+  border:none;
+  border-radius: 10px;
+  font-style: oblique;
+  cursor:pointer;
+  position:absolute;
+  right:85em;
+}
+li{
+  display:flex;
+  font-style: oblique;
+  font-size:20px;
+  font-display:initial;
+  margin-bottom: 20px;
+  text-align:center;
+}
+.clearButton{
+  display:flex;
+  background-color: cadetblue;
+  color:cyan;
+  padding:10px;
+  border:none;
+  border-radius: 10px;
+  font-style: oblique;
+  cursor:pointer;
+
+}
+h3{
+  display:flex;
+  padding:10px
+}
+.form{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align:start;
+}
+.form label{
+  text-align: left;
+  display:block;
+}
+.form h2{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.form input, .form textarea, .form select{
+  width:100%;
+  padding:6px 10px;
+  margin:10px 0;
+  border:1px solid#ddd;
+  box-sizing: border-box;
+  display:block;
+  border-radius: 3px;
+}
+.form button{
+  background:crimson;
+  color:ivory;
+  border:0;
+  padding:8px;
+  border-radius: 8px;
+  cursor:pointer;
+}
+.myVlog h2{
+  margin: 10px 0;
+  text-align: left;
+  color:rgb(29, 29, 31);
+  margin-bottom: 20px;
+}
